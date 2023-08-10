@@ -1,4 +1,3 @@
-
 def get_float_input():
     while True:
         try:

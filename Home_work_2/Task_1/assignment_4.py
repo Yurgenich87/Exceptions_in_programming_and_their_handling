@@ -8,6 +8,6 @@ def get_input():
             print("Ошибка! Вы ничего не ввели.")
 
 
-# Пример использования
-user_float = get_input()
-print(f"Вы ввели: {user_float}")
+if __name__ == '__main__':
+    user_float = get_input()
+    print(f"Вы ввели: {user_float}")
